@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, midnightblue, slategray);
-    color: white;
+    background: linear-gradient(to bottom, skyblue, lightgray);
+    color: black;
     line-height: 20px;
 }
 
 header {
-    background: linear-gradient(to right, darkslategray, steelblue);
+    background: linear-gradient(to right, steelblue, lightsteelblue);
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -42,7 +42,7 @@ h2 {
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 3px solid steelblue;
-    color: lightsteelblue;
+    color: steelblue;
 }
 
 .member {
@@ -69,12 +69,12 @@ h2 {
 }
 
 .member strong {
-    color: lightgreen;
+    color: darkgreen;
 }
 
 #about p {
     font-size: 17px;
-    background: linear-gradient(to right, darkslategray, slategray);
+    background: linear-gradient(to right, whitesmoke, lightgray);
     padding: 20px;
     border-left: 5px solid steelblue;
     border-right: 1px solid steelblue;
@@ -82,7 +82,7 @@ h2 {
 }
 
 footer {
-    background: linear-gradient(to right, darkslategray, steelblue);
+    background: linear-gradient(to right, steelblue, lightsteelblue);
     color: white;
     text-align: center;
     padding: 15px;
