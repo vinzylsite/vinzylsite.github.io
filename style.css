@@ -28,7 +28,7 @@ main {
     width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background-color: transparent;
+    background-color: darkslategray;
     border-radius: 10px;
 }
 
@@ -48,7 +48,7 @@ h2 {
     background-color: transparent;
     backdrop-filter: blur(12px);
     border-left: 6px solid green;
-    border-right: 2px solid green;
+    border-right: 1px solid green;
     padding: 20px 25px;
     margin-bottom: 20px;
     border-radius: 8px;
