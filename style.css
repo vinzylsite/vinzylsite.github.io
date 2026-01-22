@@ -6,17 +6,19 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background: linear-gradient(to bottom, lightcyan, honeydew);
     color: black;
     line-height: 20px;
+    background-clip: ;
 }
 
 header {
-    background: linear-gradient(to right, darkslategray, steelblue);
+    background: linear-gradient(to right, cadetblue, lightseagreen);
     color: white;
     padding: 40px 20px;
     text-align: center;
-    box-shadow: 0px 4px 10px gray;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+    opacity: 0.9;
 }
 
 header h1 {
@@ -25,12 +27,12 @@ header h1 {
 }
 
 main {
-    width: 800px;
+    width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 10px;
-    box-shadow: 0px 10px 25px gray;
+    border: 1px solid gray;
 }
 
 section {
@@ -41,22 +43,29 @@ h2 {
     font-size: 26px;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 3px solid darkslategray;
-    color: darkslategray;
+    border-bottom: 3px solid cadetblue;
+    color: cadetblue;
 }
 
 .member {
-    background-color: lightgreen;
-    border-left: 6px solid green;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-left: 6px solid mediumseagreen;
+    border-right: 1px solid mediumseagreen;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
     padding: 20px 25px;
     margin-bottom: 20px;
     border-radius: 8px;
     transition: all 0.3s;
+    color: white;
 }
 
 .member:hover {
+    background-color: rgba(240, 240, 240, 0.9);
     transform: translateY(-5px);
     box-shadow: 0px 6px 15px gray;
+    color: black;
 }
 
 .member p {
@@ -65,22 +74,34 @@ h2 {
 }
 
 .member strong {
-    color: darkgreen;
+    color: mediumseagreen;
 }
 
 #about p {
     font-size: 17px;
-    background-color: whitesmoke;
+    background: linear-gradient(to right, azure, honeydew);
     padding: 20px;
-    border-left: 5px solid blue;
+    border-left: 5px solid cadetblue;
+    border-right: 1px solid cadetblue;
     border-radius: 6px;
 }
 
 footer {
-    background: linear-gradient(to right, darkslategray, steelblue);
+    background: linear-gradient(to right, cadetblue, lightseagreen);
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 40px;
     font-size: 14px;
+    opacity: 0.9;
+}video {
+    position: fixed ;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+main {
+    backdrop-filter: blur(15px);
 }
