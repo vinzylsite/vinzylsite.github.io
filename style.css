@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, skyblue, lightgray);
+    background: linear-gradient(to bottom, lightcyan, honeydew);
     color: black;
     line-height: 20px;
 }
 
 header {
-    background: linear-gradient(to right, steelblue, lightsteelblue);
+    background: linear-gradient(to right, cadetblue, lightseagreen);
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -41,17 +41,17 @@ h2 {
     font-size: 26px;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 3px solid steelblue;
-    color: steelblue;
+    border-bottom: 3px solid cadetblue;
+    color: cadetblue;
 }
 
 .member {
     background-color: transparent;
     backdrop-filter: blur(15px);
-    border-left: 6px solid lightgreen;
-    border-right: 1px solid lightgreen;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-left: 6px solid mediumseagreen;
+    border-right: 1px solid mediumseagreen;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
     padding: 20px 25px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -69,20 +69,20 @@ h2 {
 }
 
 .member strong {
-    color: darkgreen;
+    color: mediumseagreen;
 }
 
 #about p {
     font-size: 17px;
-    background: linear-gradient(to right, whitesmoke, lightgray);
+    background: linear-gradient(to right, azure, honeydew);
     padding: 20px;
-    border-left: 5px solid steelblue;
-    border-right: 1px solid steelblue;
+    border-left: 5px solid cadetblue;
+    border-right: 1px solid cadetblue;
     border-radius: 6px;
 }
 
 footer {
-    background: linear-gradient(to right, steelblue, lightsteelblue);
+    background: linear-gradient(to right, cadetblue, lightseagreen);
     color: white;
     text-align: center;
     padding: 15px;
