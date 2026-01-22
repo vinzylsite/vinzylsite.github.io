@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, darkslategray, dimgray);
+    background: linear-gradient(to bottom, dimgray, black);
     color: white;
     line-height: 22px;
     min-height: 100vh;
@@ -27,9 +27,9 @@ header {
 main {
     width: 90%;
     max-width: 1000px;
-    margin: -50px auto 40px auto;
+    margin: 80px auto 40px auto;
     padding: 40px;
-    background-color: transparent;
+    background-color: darkslategray;
     backdrop-filter: blur(20px);
     border-radius: 15px;
     border: 1px solid silver;
@@ -40,8 +40,8 @@ h2 {
     font-size: 28px;
     margin-bottom: 25px;
     padding-bottom: 12px;
-    border-bottom: 3px solid darkolivegreen;
-    color: darkolivegreen;
+    border-bottom: 3px solid mediumseagreen;
+    color: mediumseagreen;
 }
 
 section {
@@ -50,14 +50,14 @@ section {
 
 .member {
     background-color: transparent;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
     border-left: 6px solid mediumseagreen;
     border-right: 1px solid mediumseagreen;
     border-top: 1px solid silver;
     border-bottom: 1px solid silver;
     padding: 25px 30px;
     margin-bottom: 25px;
-    border-radius: 10px;
+    border-radius: 12px;
     transition: all 0.3s;
 }
 
@@ -78,10 +78,10 @@ section {
 #about p {
     font-size: 18px;
     background-color: transparent;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
     padding: 25px;
-    border-left: 5px solid darkolivegreen;
-    border-radius: 10px;
+    border-left: 5px solid mediumseagreen;
+    border-radius: 12px;
     margin-bottom: 20px;
 }
 
