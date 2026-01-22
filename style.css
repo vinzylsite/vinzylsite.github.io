@@ -1,42 +1,102 @@
-* { 
+* {
     margin: 0;
-     padding: 0; 
-     box-sizing: 
-     border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
-body { 
-    font-family: Arial, sans-serif;
-     line-height: 1.6;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    color: black;
+    line-height: 20px;
 }
-header { 
-    background: #2c3e50;
-    color: white; 
-    padding: 2rem; 
-    text-align: center; 
+
+header {
+    background-color: darkslategray;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px gray;
 }
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem; 
+    width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px gray;
 }
-section { 
-    margin-bottom: 2rem; 
+
+section {
+    margin-bottom: 40px;
 }
-h2 { border-bottom: 2px solid #2c3e50;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem; 
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid darkslategray;
+    color: darkslategray;
 }
-.member { 
-    background: #d0f0c0;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5px; 
+
+.member {
+    background-color: lightgreen;
+    border-left: 6px solid green;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: all 0.3s;
 }
-footer { 
-    background: #2c3e50;
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px gray;
+}
+
+.member p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.member strong {
+    color: darkgreen;
+}
+
+#about p {
+    font-size: 17px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-left: 5px solid blue;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: darkslategray;
     color: white;
     text-align: center;
-    padding: 1rem; 
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
 }
 
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
 
+    main {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
