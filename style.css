@@ -6,43 +6,46 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, lightsteelblue, lightcyan);
-    color: black;
-    line-height: 20px;
+    background: linear-gradient(to bottom, darkslategray, dimgray);
+    color: white;
+    line-height: 22px;
+    min-height: 100vh;
 }
 
 header {
-    background: linear-gradient(to right, cadetblue, mediumaquamarine);
+    background: linear-gradient(to right, darkolivegreen, seagreen);
     color: white;
-    padding: 40px 20px;
+    padding: 50px 20px;
     text-align: center;
-    box-shadow: 0px 4px 10px gray;
-}
-
-header h1 {
     font-size: 36px;
+    font-weight: bold;
     letter-spacing: 1px;
+    box-shadow: 0px 6px 15px gray;
+    border-bottom: 1px solid darkgreen;
 }
 
 main {
-    width: 900px;
-    margin: 40px auto;
-    padding: 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: -50px auto 40px auto;
+    padding: 40px;
     background-color: transparent;
-    border-radius: 10px;
-    border: 1px solid gray;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    border: 1px solid silver;
+    box-shadow: 0px 10px 25px gray;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid darkolivegreen;
+    color: darkolivegreen;
 }
 
 section {
     margin-bottom: 40px;
-}
-
-h2 {
-    font-size: 26px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid cadetblue;
-    color: cadetblue;
 }
 
 .member {
@@ -52,20 +55,20 @@ h2 {
     border-right: 1px solid mediumseagreen;
     border-top: 1px solid silver;
     border-bottom: 1px solid silver;
-    padding: 20px 25px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
     transition: all 0.3s;
 }
 
 .member:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 6px 15px gray;
+    box-shadow: 0px 8px 20px gray;
 }
 
 .member p {
-    margin-bottom: 5px;
-    font-size: 16px;
+    margin-bottom: 8px;
+    font-size: 17px;
 }
 
 .member strong {
@@ -73,19 +76,20 @@ h2 {
 }
 
 #about p {
-    font-size: 17px;
-    background: linear-gradient(to right, lightcyan, honeydew);
-    padding: 20px;
-    border-left: 5px solid cadetblue;
-    border-right: 1px solid cadetblue;
-    border-radius: 6px;
+    font-size: 18px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    padding: 25px;
+    border-left: 5px solid darkolivegreen;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 footer {
-    background: linear-gradient(to right, cadetblue, mediumaquamarine);
+    background: linear-gradient(to right, darkolivegreen, seagreen);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    font-size: 15px;
     margin-top: 40px;
-    font-size: 14px;
 }
