@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background: linear-gradient(to bottom, lightblue, lightgray);
     color: black;
     line-height: 20px;
 }
@@ -46,7 +46,7 @@ h2 {
 }
 
 .member {
-    background-color: lightgreen;
+    background: linear-gradient(to right, lightgreen, palegreen);
     border-left: 6px solid green;
     padding: 20px 25px;
     margin-bottom: 20px;
@@ -70,11 +70,10 @@ h2 {
 
 #about p {
     font-size: 17px;
-    background-color: whitesmoke;
+    background: linear-gradient(to right, whitesmoke, lightgray);
     padding: 20px;
     border-left: 5px solid blue;
     border-radius: 6px;
-    border: 2px lightgray;
 }
 
 footer {
