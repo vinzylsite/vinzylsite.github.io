@@ -9,6 +9,7 @@ body {
     background: linear-gradient(to bottom, lightcyan, honeydew);
     color: black;
     line-height: 20px;
+    width: 100%;
 }
 
 header {
