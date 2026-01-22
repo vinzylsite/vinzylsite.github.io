@@ -30,6 +30,7 @@ main {
     padding: 30px;
     background-color: darkslategray;
     border-radius: 10px;
+    border: 1px solid gray;
 }
 
 section {
@@ -46,7 +47,7 @@ h2 {
 
 .member {
     background-color: transparent;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(15px);
     border-left: 6px solid green;
     border-right: 1px solid green;
     padding: 20px 25px;
