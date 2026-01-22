@@ -9,7 +9,7 @@ body {
     background: linear-gradient(to bottom, lightcyan, honeydew);
     color: black;
     line-height: 20px;
-    background-clip: ;
+    background-clip: BG;
 }
 
 header {
