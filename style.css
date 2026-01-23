@@ -86,6 +86,7 @@ h2 {
     font-size: 17px;
     text-align: justify;
     text-indent: 20 px;
+    line-height: 20px;
     background: linear-gradient(to right, azure, honeydew);
     padding: 20px;
     border-left: 5px solid cadetblue;
