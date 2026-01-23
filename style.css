@@ -84,6 +84,8 @@ h2 {
 
 #about p {
     font-size: 17px;
+    text-align: justify;
+    text-indent: 20 px;
     background: linear-gradient(to right, azure, honeydew);
     padding: 20px;
     border-left: 5px solid cadetblue;
