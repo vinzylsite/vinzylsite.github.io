@@ -1,2 +1,2 @@
 # vinzylsite.github.io
-Group Websites
+Group Website
