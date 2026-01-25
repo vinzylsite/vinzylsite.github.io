@@ -76,7 +76,6 @@ h2 {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    margin: auto 20px;
     border: 2px solid mediumseagreen;
     flex-shrink: 0;
     box-shadow: 2px 3px 5px mediumseagreen;
