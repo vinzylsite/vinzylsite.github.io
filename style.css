@@ -73,7 +73,7 @@ h2 {
     width: 110px;
     height: 110px;
     object-fit: cover;
-    gap-left: 20px;
+    margin-left: 10%;
     object-position: center;
     border-radius: 50%;
     border: 2px solid mediumseagreen;
