@@ -71,14 +71,13 @@ h2 {
 }
 
 .member img {
-    width: 140px;
-    height: 140px;
+    size: 40%;
+    padding: 10px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
     margin: auto 20px;
-    border: 4px solid mediumseagreen;
-    background-color: white;
+    border: 2px solid mediumseagreen;
     flex-shrink: 0;
     box-shadow: 2px 3px 5px mediumseagreen;
 }
