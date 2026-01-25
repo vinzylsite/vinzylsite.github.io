@@ -55,7 +55,6 @@ h2 {
 .member {
     display: flex;
     align-items: center;
-    gap: 20px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     border-left: 6px solid mediumseagreen;
