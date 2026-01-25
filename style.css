@@ -71,7 +71,7 @@ h2 {
 }
 
 .member img {
-    size: 40%;
+    size: 110px;
     padding: 10px;
     object-fit: cover;
     object-position: center;
