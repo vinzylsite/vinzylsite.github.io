@@ -62,7 +62,7 @@ h2 {
     border-right: 1px solid mediumseagreen;
     border-top: 1px solid silver;
     border-bottom: 1px solid silver;
-    padding: 0;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
     transition: all 0.3s;
@@ -76,6 +76,7 @@ h2 {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
+    margin-left: 20px;
     border: 2px solid mediumseagreen;
     flex-shrink: 0;
     box-shadow: 2px 3px 5px mediumseagreen;
