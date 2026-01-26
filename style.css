@@ -73,6 +73,7 @@ h2 {
 .member img {
     width: 110px;
     height: 110px;
+    margin-left: 20px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
