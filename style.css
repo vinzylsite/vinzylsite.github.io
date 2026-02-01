@@ -136,12 +136,12 @@ video {
     height: 100%;   
 }
 
-.projectDsgn {
+.projectLinkDsgn {
     color: white;
     text-decoration: none;
 }
 
-.projectDsgn:hover {
+.projectLinkDsgn:hover {
     text-decoration: underline;
     color: green;
 }
