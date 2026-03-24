@@ -69,6 +69,11 @@ h2 {
     color: white;
     overflow: hidden;
 }
+.member:hover  img {
+    box-shadow: 0 4px 5px rgb(27, 94, 57);
+    border-style: inherit;
+}
+    
 
 .member img {
     width: 110px;
@@ -76,12 +81,12 @@ h2 {
     margin-left: 20px;
     object-fit: cover;
     object-position: center;
-    border-radius: 50%;
+    border-radius: 25%;
     border: 2px solid mediumseagreen;
     flex-shrink: 0;
-    box-shadow: 2px 3px 5px mediumseagreen;
+    box-shadow: 0px 0px 2px mediumseagreen;
+    transition: all 0.5s ease;
 }
-
 
 .member-info {
     padding: 20px;
